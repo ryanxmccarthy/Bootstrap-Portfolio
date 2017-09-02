@@ -7,6 +7,8 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -18,7 +20,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Ryan McCarthy</a>
+	      <a class="navbar-brand" id="name-padding" href="index.html">Ryan McCarthy</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
 	      <ul class="nav navbar-nav navbar-right">
@@ -30,6 +32,63 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<h1>here is my contact info</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-s-8 col-xs-12">
+				<h1>Contact</h1>
+				<hr>
+					<div class="container">
+						<div class="row col-lg-8">
+							<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">Name</span>
+							  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+							</div>
+
+							<br>
+
+							<div class="input-group">
+							  <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon2">
+							  <span class="input-group-addon" id="basic-addon2">@email.com</span>
+							</div>
+
+							<div class="form-group">
+							  <label for="comment"></label>
+							  <textarea class="form-control" placeholder="Message" rows="5" id="comment"></textarea>
+							</div>
+
+							<button type="button" class="btn btn-lg">Submit</button>
+						</div>
+					</div>
+				<br>
+			</div>
+
+			<br>
+
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Connect with Me</h3>
+				  </div>
+				  <div class="panel-body">
+				    <img src="images/github-128.png" alt="" class="img-responsive contact-img">
+				    <img src="images/linkedin-128.png" alt="" class="img-responsive contact-img">
+				    <img src="images/stackoverflow-128.png" alt="" class="img-responsive contact-img">
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer class="footer">
+		<div class="container">
+			Copyright &copy; 2017 Ryan McCarthy
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>
