@@ -1,3 +1,8 @@
+.border {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
 .contact-img {
 	width: 33%;
 	height: auto;
@@ -10,6 +15,14 @@
 }
 
 @media (max-width: 991px) {
+  .border {
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
   .contact-img {
     width: 18%;
     height: auto;
